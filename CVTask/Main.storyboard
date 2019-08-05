@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="r9A-8p-xOD">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Опыт работы-->
+        <scene sceneID="uCA-iZ-zXb">
+            <objects>
+                <viewController id="bbF-SU-IXw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K0l-QB-CY4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Kr-lx-0Rt">
+                                <rect key="frame" x="5" y="79" width="404" height="734"/>
+                                <color key="backgroundColor" red="0.4043084072" green="0.60546281440000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">Должность: QA Mobile Automation Engineer
+Название компании: Mafin
+Даты начала и окончания работы: сент. 2018 – июнь 2019
+Продолжительность трудоустройства: 10 мес.
+Регион: Moscow
+Обязанности:
+- Automation of mobile projects using a bunch of Java + TestNG + Appium + Allure 
+- Built and supported Android / IOS device farms for parallel regression testing of new versions of mobile applications 
+- Setup a CI process for mobile projects 
+- Designed testing automation processes 
+- Reviewed mobile project requirements 
+- UX testing of new projects
+
+Должность: Mobile QA engineer
+Название компании: CarPrice
+Даты начала и окончания работы: июнь 2017 – сент. 2018
+Продолжительность трудоустройства: 1 г. 4 мес.
+Регион: Москва, Россия
+Обязанности:
+- Review of requirements for mobile and Web projects
+- Integration testing of mobile and Web applications (PHP, GO, Android, IOS)
+- Setting a regression process for 6 mobile projects
+- UX testing new projects
+- Automation of mobile projects using a bunch of Java8 + JUnit + Appium
+
+Должность: Testing Engineer
+Название компании: Redmadrobot
+Даты начала и окончания работы: окт. 2016 – июнь 2017
+Продолжительность трудоустройства: 9 мес.
+Регион:  Москва, Россия
+Обязанности:
+- Testing mobile apps for iOS, Android using TestRail 
+- Using Charles / xCode / Logcat to get logs from mobile devices 
+- Understanding the architecture of mobile client-server applications 
+- Writing, debugging and maintenance of test documentation
+
+Должность: Senior Test Engineer
+Название компании: Antiplagiat
+Даты начала и окончания работы: июль 2016 – окт. 2016
+Продолжительность трудоустройства: 4 мес.
+Регион: Москва, Россия
+Обязанности:
+- Functional (manual), regression testing of company projects 
+- Writing, debugging and maintenance of test documentation 
+- Creation and support of stands for testing 
+- Test automation using Selenium Webdriver + C#
+
+Должность: Software Tester
+Название компании: RedSoft
+Даты начала и окончания работы: авг. 2014 – июль 2016
+Продолжительность трудоустройства: 2 г.
+Регион: Дубна
+Обязанности:
+- Testing and project support
+- Development of project and reference documentation
+- Consultation and training of new users
+- Configuring and configuring software
+- Automation of load testing using Apache Jmeter
+- Testing Web services using SoapUI</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4043084072" green="0.60546281440000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="2Kr-lx-0Rt" firstAttribute="leading" secondItem="qSc-tV-IIs" secondAttribute="leading" constant="5" id="Bkn-7r-ee4"/>
+                            <constraint firstItem="qSc-tV-IIs" firstAttribute="trailing" secondItem="2Kr-lx-0Rt" secondAttribute="trailing" constant="5" id="PGC-VE-9pr"/>
+                            <constraint firstItem="2Kr-lx-0Rt" firstAttribute="top" secondItem="qSc-tV-IIs" secondAttribute="top" constant="35" id="Pdq-fV-9ut"/>
+                            <constraint firstItem="2Kr-lx-0Rt" firstAttribute="bottom" secondItem="qSc-tV-IIs" secondAttribute="bottom" id="x2d-Y4-QJX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qSc-tV-IIs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Опыт работы" image="file-document-7" id="mPp-JC-5je"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oT4-XR-yF7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281.1594202898552" y="264.50892857142856"/>
+        </scene>
+        <!--Навыки-->
+        <scene sceneID="wku-ch-2n1">
+            <objects>
+                <viewController id="xgx-el-qek" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kKa-6L-IaZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oxZ-PR-t0Z">
+                                <rect key="frame" x="7" y="81" width="414" height="732"/>
+                                <color key="backgroundColor" red="0.4043084072" green="0.60546281440000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">- Mobile application testing
+- Automation testing
+- Java
+- Manual testing
+- SQL
+- Bash
+- Git
+- Quality assurance software
+- Smoke testing
+- Appium
+- Teamcity
+- Jenkins
+- TestNG
+- Chrome dev tools
+- API Testing</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4043084072" green="0.60546281440000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="oxZ-PR-t0Z" firstAttribute="top" secondItem="5Ju-n7-eOh" secondAttribute="top" constant="37" id="VAs-cv-325"/>
+                            <constraint firstItem="oxZ-PR-t0Z" firstAttribute="leading" secondItem="5Ju-n7-eOh" secondAttribute="leading" constant="7" id="bB6-yY-cig"/>
+                            <constraint firstItem="oxZ-PR-t0Z" firstAttribute="bottom" secondItem="5Ju-n7-eOh" secondAttribute="bottom" id="kXa-Ia-HmN"/>
+                            <constraint firstItem="oxZ-PR-t0Z" firstAttribute="trailing" secondItem="5Ju-n7-eOh" secondAttribute="trailing" constant="7" id="xz8-zh-MAK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5Ju-n7-eOh"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Навыки" image="basketball-7" id="OdD-4H-bST"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="amw-5f-K27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-407.24637681159425" y="264.50892857142856"/>
+        </scene>
+        <!--Общая информация-->
+        <scene sceneID="agY-R1-5A2">
+            <objects>
+                <viewController id="3Nh-b6-s1b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xcX-Su-byd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="nxN-Ha-C3i">
+                                <rect key="frame" x="16" y="576" width="382" height="138"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ФИО: Егоров Андрей" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ok-VI-7WH">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Должность: QA Mobile Automation Engineer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZE-kN-5Qd">
+                                        <rect key="frame" x="0.0" y="48.5" width="382" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA1-76-cp5">
+                                        <rect key="frame" x="0.0" y="97" width="382" height="41"/>
+                                        <string key="text">Общие сведения: 
+I test mobile applications and program a little :) </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="749" verticalCompressionResistancePriority="749" image="basketball-7" translatesAutoresizingMaskIntoConstraints="NO" id="pbb-Vd-8ys">
+                                <rect key="frame" x="100" y="154" width="215" height="315"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4043084072" green="0.60546281440000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="YnY-xn-Wdj" firstAttribute="trailing" secondItem="pbb-Vd-8ys" secondAttribute="trailing" constant="99" id="27c-3S-HVy"/>
+                            <constraint firstItem="pbb-Vd-8ys" firstAttribute="leading" secondItem="YnY-xn-Wdj" secondAttribute="leading" constant="100" id="IhO-RT-3m8"/>
+                            <constraint firstItem="nxN-Ha-C3i" firstAttribute="top" secondItem="pbb-Vd-8ys" secondAttribute="bottom" constant="107" id="JJm-Yp-5Dm"/>
+                            <constraint firstItem="pbb-Vd-8ys" firstAttribute="top" secondItem="YnY-xn-Wdj" secondAttribute="top" constant="110" id="dkh-Uv-i7f"/>
+                            <constraint firstItem="YnY-xn-Wdj" firstAttribute="bottom" secondItem="nxN-Ha-C3i" secondAttribute="bottom" constant="99" id="dre-hh-Sqo"/>
+                            <constraint firstItem="nxN-Ha-C3i" firstAttribute="leading" secondItem="YnY-xn-Wdj" secondAttribute="leading" constant="16" id="fsm-K7-HaL"/>
+                            <constraint firstItem="YnY-xn-Wdj" firstAttribute="trailing" secondItem="nxN-Ha-C3i" secondAttribute="trailing" constant="16" id="pFS-kp-sbt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YnY-xn-Wdj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Общая информация" image="circle-user-7" id="Kdl-MR-uvR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d47-2Z-xKi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2152.1739130434785" y="264.50892857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NxS-NZ-qRT">
+            <objects>
+                <tabBarController id="r9A-8p-xOD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2cu-wf-iDV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="3Nh-b6-s1b" kind="relationship" relationship="viewControllers" id="LFe-ca-7BP"/>
+                        <segue destination="bbF-SU-IXw" kind="relationship" relationship="viewControllers" id="ipq-P3-lj7"/>
+                        <segue destination="xgx-el-qek" kind="relationship" relationship="viewControllers" id="gAd-a5-opB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5sa-Cy-b0F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1125" y="-465"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="basketball-7" width="29" height="30"/>
+        <image name="circle-user-7" width="30" height="30"/>
+        <image name="file-document-7" width="30" height="30"/>
+    </resources>
+</document>
